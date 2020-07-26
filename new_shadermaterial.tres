@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://new_shader.shader" type="Shader" id=1]
+[ext_resource path="res://awesomeface.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/near = -1.0
+shader_param/far = -5.0
+shader_param/top = 1.0
+shader_param/bottom = -1.0
+shader_param/right = 1.0
+shader_param/left = -1.0
+shader_param/light_matrix = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.934332, 0, -1.17933 )
+shader_param/tex = ExtResource( 2 )
